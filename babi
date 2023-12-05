@@ -1,0 +1,586 @@
+!!@@##@@!! -- Example 0
+Passage: The red square is above the pink rectangle.
+The red square is to the right of the triangle.
+Question: Is the pink rectangle to the right of the triangle?
+Answer: yes
+
+Passage: Fred travelled to the office.
+Fred went to the garden.
+Mary grabbed the milk there.
+Bill got the apple there.
+Jeff travelled to the hallway.
+Mary gave the milk to Jeff.
+Jeff passed the milk to Mary.
+Bill journeyed to the garden.
+Bill gave the apple to Fred.
+Fred passed the apple to Bill.
+Jeff travelled to the bathroom.
+Mary went to the garden.
+Question: Who gave the apple?
+Answer: Fred
+
+Passage: John journeyed to the bathroom.
+Daniel went back to the kitchen.
+Question: Where is Daniel?
+Answer: kitchen
+
+Passage: The bathroom is east of the office.
+The kitchen is east of the bathroom.
+Question: What is east of the office?
+Answer: bathroom
+
+Passage: Mary moved to the bathroom.
+John went to the hallway.
+Question: Where is Mary?
+Answer:
+!!@@##@@!! -- Example 1
+Passage: Sandra travelled to the office.
+John journeyed to the garden.
+John grabbed the milk there.
+Mary journeyed to the bathroom.
+Sandra moved to the hallway.
+Daniel went to the office.
+Sandra journeyed to the bedroom.
+John discarded the milk.
+John went to the kitchen.
+John got the football there.
+Sandra moved to the hallway.
+John put down the football there.
+Sandra took the apple there.
+Mary travelled to the hallway.
+John picked up the football there.
+Daniel travelled to the bedroom.
+John put down the football.
+Sandra dropped the apple there.
+Question: Where is the football?
+Answer: kitchen
+
+Passage: The bathroom is north of the garden.
+The office is south of the garden.
+Question: What is north of the garden?
+Answer: bathroom
+
+Passage: The bedroom is south of the bathroom.
+The kitchen is south of the bedroom.
+Question: What is the bedroom north of?
+Answer: kitchen
+
+Passage: Sandra and Mary went to the kitchen.
+Afterwards they travelled to the garden.
+Question: Where is Sandra?
+Answer: garden
+
+Passage: Mary moved to the bathroom.
+John went to the hallway.
+Daniel went back to the hallway.
+Sandra moved to the garden.
+Question: Where is Daniel?
+Answer:
+!!@@##@@!! -- Example 2
+Passage: John is in the office.
+John is not in the office.
+Sandra is in the bedroom.
+Daniel is in the bedroom.
+Mary moved to the garden.
+Mary is not in the garden.
+Daniel is in the kitchen.
+Daniel is no longer in the kitchen.
+Sandra is no longer in the bedroom.
+Daniel travelled to the kitchen.
+Question: Is Mary in the garden?
+Answer: no
+
+Passage: Mary went to the office.
+Sandra travelled to the bathroom.
+Sandra went to the hallway.
+Daniel journeyed to the kitchen.
+Question: Where is Sandra?
+Answer: hallway
+
+Passage: John moved to the bathroom.
+Mary moved to the bathroom.
+Sandra got the milk there.
+Sandra took the apple there.
+Mary travelled to the garden.
+Sandra put down the milk there.
+Sandra moved to the garden.
+Sandra travelled to the office.
+Mary went to the kitchen.
+Sandra dropped the apple.
+Daniel grabbed the milk there.
+Sandra grabbed the apple there.
+Mary travelled to the bathroom.
+Mary travelled to the kitchen.
+Sandra dropped the apple.
+Daniel dropped the milk there.
+John went back to the kitchen.
+Mary went back to the garden.
+Sandra got the apple there.
+John went to the garden.
+Mary went to the bathroom.
+Daniel moved to the bathroom.
+Sandra went to the bedroom.
+Sandra journeyed to the garden.
+Sandra went to the kitchen.
+John went back to the office.
+Daniel went back to the kitchen.
+Mary journeyed to the office.
+Sandra went to the bathroom.
+Sandra left the apple there.
+Question: Where is the apple?
+Answer: bathroom
+
+Passage: Mary travelled to the kitchen.
+Mary moved to the hallway.
+John went to the office.
+John went back to the garden.
+John moved to the hallway.
+Sandra travelled to the hallway.
+Mary moved to the garden.
+Daniel journeyed to the hallway.
+Daniel went to the bedroom.
+Mary travelled to the bedroom.
+Question: Where is Sandra?
+Answer: hallway
+
+Passage: Mary moved to the bathroom.
+John went to the hallway.
+Daniel went back to the hallway.
+Sandra moved to the garden.
+John moved to the office.
+Sandra journeyed to the bathroom.
+Question: Where is Daniel?
+Answer:
+!!@@##@@!! -- Example 3
+Passage: Sandra and John journeyed to the hallway.
+After that they went back to the bedroom.
+Question: Where is Sandra?
+Answer: bedroom
+
+Passage: The chest is bigger than the chocolate.
+The chocolate fits inside the container.
+The chocolate fits inside the box of chocolates.
+The container is bigger than the chocolate.
+The container is bigger than the suitcase.
+The chocolate fits inside the box.
+The chocolate fits inside the box of chocolates.
+The chocolate fits inside the box of chocolates.
+The chocolate fits inside the suitcase.
+The box of chocolates fits inside the container.
+Question: Does the chocolate fit in the container?
+Answer: yes
+
+Passage: The yellow square is below the triangle.
+The yellow square is above the red square.
+Question: Is the triangle to the right of the red square?
+Answer: no
+
+Passage: Daniel moved to the office.
+Daniel travelled to the kitchen.
+John travelled to the bathroom.
+John went back to the office.
+Daniel moved to the bathroom.
+Daniel travelled to the bedroom.
+Question: Is Daniel in the bedroom?
+Answer: yes
+
+Passage: Mary moved to the bathroom.
+John went to the hallway.
+Daniel went back to the hallway.
+Sandra moved to the garden.
+John moved to the office.
+Sandra journeyed to the bathroom.
+Mary moved to the hallway.
+Daniel travelled to the office.
+Question: Where is Daniel?
+Answer:
+!!@@##@@!! -- Example 4
+Passage: The kitchen is south of the hallway.
+The bedroom is north of the hallway.
+Question: What is the hallway north of?
+Answer: kitchen
+
+Passage: Daniel took the football there.
+Sandra took the apple there.
+Sandra travelled to the bathroom.
+John grabbed the milk there.
+Sandra went back to the garden.
+Sandra handed the apple to John.
+John handed the apple to Mary.
+Mary went back to the bedroom.
+John passed the milk to Sandra.
+Sandra passed the milk to John.
+Question: How many objects is Sandra carrying?
+Answer: none
+
+Passage: Mary went back to the kitchen.
+Bill got the milk there.
+Fred took the apple there.
+Bill journeyed to the hallway.
+Fred discarded the apple there.
+Bill journeyed to the garden.
+Bill gave the milk to Fred.
+Fred passed the milk to Bill.
+Bill grabbed the apple there.
+Bill went back to the bathroom.
+Bill went to the bedroom.
+Bill discarded the milk.
+Mary moved to the garden.
+Bill moved to the garden.
+Mary went back to the bedroom.
+Jeff moved to the office.
+Bill gave the apple to Fred.
+Fred gave the apple to Bill.
+Mary went back to the kitchen.
+Jeff went back to the kitchen.
+Question: Who received the apple?
+Answer: Bill
+
+Passage: Sandra went to the garden.
+Mary travelled to the garden.
+Sandra travelled to the kitchen.
+Daniel went back to the bedroom.
+Daniel went to the kitchen.
+Sandra travelled to the garden.
+Mary went back to the bedroom.
+Mary travelled to the kitchen.
+John travelled to the bathroom.
+Mary travelled to the hallway.
+Question: Where is Sandra?
+Answer: garden
+
+Passage: Mary moved to the bathroom.
+John went to the hallway.
+Daniel went back to the hallway.
+Sandra moved to the garden.
+John moved to the office.
+Sandra journeyed to the bathroom.
+Mary moved to the hallway.
+Daniel travelled to the office.
+John went back to the garden.
+John moved to the bedroom.
+Question: Where is Sandra?
+Answer:
+!!@@##@@!! -- Example 5
+Passage: The office is east of the bathroom.
+The bedroom is north of the kitchen.
+The garden is west of the bedroom.
+The office is north of the bedroom.
+The hallway is south of the garden.
+Question: How do you go from the office to the garden?
+Answer: south west
+
+Passage: The chocolate fits inside the chest.
+The chocolate fits inside the suitcase.
+The container is bigger than the box.
+The box of chocolates fits inside the chest.
+The chest is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+The box is bigger than the box of chocolates.
+The container is bigger than the chocolate.
+The suitcase fits inside the container.
+The container fits inside the chest.
+Question: Is the container bigger than the chocolate?
+Answer: yes
+
+Passage: Julie moved to the park.
+Mary moved to the kitchen.
+Julie is either in the bedroom or the school.
+Fred journeyed to the bedroom.
+Question: Is Julie in the bedroom?
+Answer: maybe
+
+Passage: Mary travelled to the bedroom.
+John got the milk.
+John put down the milk there.
+Daniel journeyed to the bathroom.
+John travelled to the garden.
+John journeyed to the kitchen.
+Daniel went back to the hallway.
+Mary got the apple.
+Sandra journeyed to the kitchen.
+Sandra journeyed to the bedroom.
+John moved to the bathroom.
+Sandra journeyed to the office.
+Sandra took the milk.
+John got the football.
+John discarded the football.
+John grabbed the football there.
+Mary dropped the apple.
+Mary went to the garden.
+John dropped the football there.
+Sandra went back to the garden.
+Sandra put down the milk there.
+John grabbed the football.
+Daniel went back to the office.
+Daniel travelled to the bathroom.
+John put down the football.
+Daniel picked up the football.
+John went to the office.
+Mary took the milk.
+Daniel left the football.
+Mary moved to the hallway.
+Mary journeyed to the bedroom.
+Mary grabbed the apple.
+Question: Where was the milk before the bedroom?
+Answer: hallway
+
+Passage: Sandra travelled to the office.
+Sandra went to the bathroom.
+Question: Where is Sandra?
+Answer:
+!!@@##@@!! -- Example 6
+Passage: The pink rectangle is to the right of the red sphere.
+The red square is to the right of the pink rectangle.
+Question: Is the red sphere to the left of the red square?
+Answer: yes
+
+Passage: Mary took the apple.
+Mary put down the apple.
+John moved to the garden.
+John grabbed the apple.
+Sandra travelled to the kitchen.
+Daniel went to the bathroom.
+John moved to the bathroom.
+Daniel journeyed to the bedroom.
+Sandra went to the bedroom.
+Mary went back to the office.
+John moved to the bedroom.
+Sandra picked up the football.
+Mary grabbed the milk.
+Mary moved to the bathroom.
+John discarded the apple.
+Sandra took the apple.
+Sandra went back to the hallway.
+Sandra put down the football.
+Sandra discarded the apple there.
+Sandra picked up the football.
+Sandra took the apple there.
+Mary dropped the milk.
+Mary moved to the kitchen.
+Daniel went to the hallway.
+Sandra went to the bathroom.
+Sandra discarded the football there.
+Sandra went to the bedroom.
+John went to the kitchen.
+Mary went back to the bedroom.
+Daniel went back to the office.
+Daniel went back to the garden.
+Sandra went back to the office.
+Sandra put down the apple there.
+John journeyed to the office.
+Daniel travelled to the office.
+Daniel went back to the bedroom.
+Question: Where was the apple before the bedroom?
+Answer: bathroom
+
+Passage: The bedroom is east of the office.
+The office is east of the hallway.
+Question: What is the hallway west of?
+Answer: office
+
+Passage: The bedroom is east of the bathroom.
+The hallway is west of the office.
+The kitchen is north of the garden.
+The garden is north of the bathroom.
+The bathroom is north of the office.
+Question: How do you go from the office to the garden?
+Answer: north north
+
+Passage: Sandra travelled to the office.
+Sandra went to the bathroom.
+Mary went to the bedroom.
+Daniel moved to the hallway.
+Question: Where is Sandra?
+Answer:
+!!@@##@@!! -- Example 7
+Passage: Sandra travelled to the office.
+Mary got the milk there.
+John went to the garden.
+Sandra travelled to the kitchen.
+Mary travelled to the office.
+Sandra went back to the bathroom.
+Sandra went back to the office.
+Daniel went back to the garden.
+John journeyed to the bathroom.
+Mary discarded the milk there.
+Question: Where is the milk?
+Answer: office
+
+Passage: Mary is either in the office or the bedroom.
+Fred moved to the kitchen.
+Bill moved to the cinema.
+Bill is either in the office or the school.
+Fred travelled to the cinema.
+Julie is either in the kitchen or the school.
+Bill is in the cinema.
+Fred journeyed to the bedroom.
+Question: Is Fred in the bedroom?
+Answer: yes
+
+Passage: Daniel went to the bedroom.
+Mary went back to the hallway.
+Mary travelled to the office.
+Mary picked up the apple there.
+Mary left the apple.
+Daniel went to the hallway.
+John journeyed to the office.
+Mary got the apple.
+Mary dropped the apple.
+John moved to the garden.
+Daniel moved to the bedroom.
+Mary went to the bedroom.
+Sandra went to the office.
+Sandra journeyed to the garden.
+Mary journeyed to the bathroom.
+Sandra moved to the office.
+John journeyed to the hallway.
+John journeyed to the bathroom.
+Sandra went to the garden.
+Sandra moved to the bathroom.
+John went back to the kitchen.
+Daniel travelled to the garden.
+Sandra went to the kitchen.
+Sandra took the football.
+Mary went back to the office.
+Daniel travelled to the bathroom.
+Mary took the apple there.
+Sandra picked up the milk.
+Sandra dropped the milk there.
+John grabbed the milk.
+Daniel travelled to the hallway.
+Daniel went back to the kitchen.
+John discarded the milk.
+John went back to the office.
+Sandra went back to the garden.
+Mary discarded the apple.
+Mary went back to the garden.
+John grabbed the apple.
+Daniel moved to the office.
+Sandra discarded the football.
+Mary moved to the office.
+John went to the kitchen.
+John journeyed to the bathroom.
+Sandra got the football.
+Mary travelled to the bedroom.
+John dropped the apple.
+Daniel moved to the hallway.
+John journeyed to the office.
+Question: Where was the apple before the bathroom?
+Answer: kitchen
+
+Passage: Sandra and Mary went back to the office.
+Daniel and Sandra went to the bedroom.
+Sandra and Mary travelled to the hallway.
+John and Mary went to the kitchen.
+Sandra and John journeyed to the garden.
+Sandra and John travelled to the kitchen.
+Daniel and Sandra journeyed to the garden.
+Mary and Daniel went back to the bedroom.
+Daniel and John journeyed to the office.
+Daniel and Sandra journeyed to the kitchen.
+Question: Where is John?
+Answer: office
+
+Passage: Sandra travelled to the office.
+Sandra went to the bathroom.
+Mary went to the bedroom.
+Daniel moved to the hallway.
+John went to the garden.
+John travelled to the office.
+Question: Where is Sandra?
+Answer:
+!!@@##@@!! -- Example 8
+Passage: The box fits inside the chest.
+The box of chocolates is bigger than the chocolate.
+The box of chocolates is bigger than the chocolate.
+The box is bigger than the box of chocolates.
+The box is bigger than the box of chocolates.
+Question: Does the chest fit in the box of chocolates?
+Answer: no
+
+Passage: Daniel and Mary went to the office.
+After that they went back to the bedroom.
+Question: Where is Daniel?
+Answer: bedroom
+
+Passage: Julie went to the cinema.
+Mary is in the cinema.
+Julie went to the kitchen.
+Fred went back to the school.
+Question: Is Julie in the park?
+Answer: no
+
+Passage: Mary is either in the park or the school.
+Julie is in the office.
+Fred went back to the cinema.
+Bill is either in the office or the school.
+Bill is in the cinema.
+Mary is in the office.
+Fred moved to the park.
+Julie travelled to the kitchen.
+Bill is in the office.
+Bill is in the cinema.
+Question: Is Fred in the cinema?
+Answer: no
+
+Passage: Sandra travelled to the office.
+Sandra went to the bathroom.
+Mary went to the bedroom.
+Daniel moved to the hallway.
+John went to the garden.
+John travelled to the office.
+Daniel journeyed to the bedroom.
+Daniel travelled to the hallway.
+Question: Where is John?
+Answer:
+!!@@##@@!! -- Example 9
+Passage: Sandra went to the kitchen.
+John took the milk there.
+John put down the milk.
+Daniel went back to the bathroom.
+Mary took the milk there.
+Mary journeyed to the hallway.
+Sandra went back to the office.
+Mary travelled to the bedroom.
+John went to the bedroom.
+Daniel went back to the kitchen.
+Mary left the milk there.
+Mary picked up the milk there.
+Question: What is Mary carrying?
+Answer: milk
+
+Passage: The red sphere is to the right of the red square.
+The pink rectangle is below the red square.
+Question: Is the pink rectangle below the red sphere?
+Answer: yes
+
+Passage: Mary moved to the bedroom.
+Sandra moved to the garden.
+John travelled to the office.
+Sandra journeyed to the office.
+Mary journeyed to the garden.
+Sandra journeyed to the hallway.
+Question: Where is Sandra?
+Answer: hallway
+
+Passage: The garden is north of the kitchen.
+The kitchen is west of the hallway.
+The bedroom is south of the bathroom.
+The office is west of the bathroom.
+The bathroom is west of the kitchen.
+Question: How do you go from the bathroom to the garden?
+Answer: east north
+
+Passage: Sandra travelled to the office.
+Sandra went to the bathroom.
+Mary went to the bedroom.
+Daniel moved to the hallway.
+John went to the garden.
+John travelled to the office.
+Daniel journeyed to the bedroom.
+Daniel travelled to the hallway.
+John went to the bedroom.
+John travelled to the office.
+Question: Where is Daniel?
+Answer:

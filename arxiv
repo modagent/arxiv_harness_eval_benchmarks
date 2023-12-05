@@ -1,0 +1,29 @@
+!!@@##@@!! -- Example 0
+Given the following benchmark dataset: GLUE, predict one or more research areas from the following list 
+Answer: Text
+
+Given the following benchmark dataset: MNIST, predict one or more research areas from the following list 
+Answer:
+!!@@##@@!! -- Example 1
+Given the following benchmark dataset: MNIST, predict one or more research areas from the following list 
+Answer: Image
+
+Given the following benchmark dataset: CelebA, predict one or more research areas from the following list 
+Answer:
+!!@@##@@!! -- Example 2
+Given the following benchmark dataset: MNIST, predict one or more research areas from the following list 
+Answer: Image
+
+Given the following benchmark dataset: JFT-300M, predict one or more research areas from the following list 
+Answer:
+!!@@##@@!! -- Example 3
+Given the following benchmark dataset: MNIST, predict one or more research areas from the following list 
+Answer: Image
+
+Given the following benchmark dataset: GLUE, predict one or more research areas from the following list 
+Answer:
+!!@@##@@!! -- Example 4
+
+
+Given the following benchmark dataset: MultiNLI, predict one or more research areas from the following list 
+Answer:

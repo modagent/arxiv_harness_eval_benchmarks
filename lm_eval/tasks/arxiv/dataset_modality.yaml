@@ -1,0 +1,14 @@
+group:
+  - arxiv
+task: dataset_modality
+dataset_path: ArtifactAI/dataset_modality_benchmark
+output_type: multiple_choice
+training_split: train
+test_split: test
+doc_to_text: "Given the following machine learning model name: {{dataset_name}}, predict the modality from the following list: ['Audio', 'Graphs', 'Images', 'Tabular', 'Texts', 'Videos'] \nAnswer:" 
+doc_to_target: "{{label}}"
+doc_to_choice: ['Audio', 'Graphs', 'Images', 'Tabular', 'Texts', 'Videos']
+metric_list:
+  - metric: acc
+metadata:
+  - version: 1.0
