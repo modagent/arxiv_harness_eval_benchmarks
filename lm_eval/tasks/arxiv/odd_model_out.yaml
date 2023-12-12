@@ -1,0 +1,14 @@
+group:
+  - arxiv
+task: odd_model_out
+dataset_path: ArtifactAI/odd_model_out_benchmark
+output_type: multiple_choice
+training_split: train
+test_split: test
+doc_to_text: "Given the following list of models: {{models}}, predict which model least fits with the others \nAnswer:" 
+doc_to_target: "{{label}}"
+doc_to_choice: "{{models}}"
+metric_list:
+  - metric: acc
+metadata:
+  - version: 1.0

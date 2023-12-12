@@ -1,0 +1,30 @@
+group:
+  - arxiv
+task: odd_model_out
+dataset_path: ArtifactAI/odd_model_out_benchmark
+output_type: multiple_choice
+output_type: generate_until
+training_split: train
+test_split: test
+doc_to_text: "Given the following list of models: {{models}}, predict which model least fits with the others \n Answer the prompt with a respose from the choices listed and no additional text \n  Answer: " 
+doc_to_target: "{{label}}"
+doc_to_choice: "{{models}}"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+generation_kwargs:
+  until:
+    - "\n\n"
+    - "Given"
+  do_sample: false
+  temperature: 0.0
+filter_list:
+  - name: "get-answer"
+    filter:
+      - function: "remove_whitespace"
+      - function: "take_first"
+metadata:
+  - version: 1.0
